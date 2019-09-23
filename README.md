@@ -1,0 +1,11 @@
+# teleport
+Move and Free your ass to everywhere in same zone
+# Commands
+- tp drop <x> -> drop your hp to x percent for slaying
+- tp set|save <name> -> save your location name
+- tp to|warp|move <name> -> tp to your saved location name (*if not have name will open GUI for your bookmark)
+- tp remove|delete|del -> remove your saved location name
+- tp blink <distance> <z> -> blink to forward with distance and z (*can ignore z if you are sure not underground)
+- tp back|last -> move to your last location before blink
+- tp up|down|x|y|z +|- <distance> -> tp follow your slide +/- with distance
+- tp coord|where|loc|location -> show zone id and x y z
