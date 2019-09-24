@@ -1,5 +1,17 @@
 {
 	"files": {
-		"index.js": "e91e96ad275dcc334672f97dcea58b0955b2083b14eb53bebfe2df7bcdc60707"
+		"index.js": "47b7aefc01f4c2174fcb2a52d7aa8df608de277bfbc497c9c814c665e0fa6565"
+	},
+	"defs": {
+		"C_ADMIN": 1,
+		"C_CONFIRM_UPDATE_NOTIFICATION": "raw",
+		"C_PLAYER_LOCATION": 5,
+		"S_ANNOUNCE_UPDATE_NOTIFICATION": 1,
+		"S_CREATURE_CHANGE_HP": 6,
+		"S_INSTANT_MOVE": 3,
+		"S_LOAD_TOPO": 3,
+		"S_LOGIN": 13,
+		"S_PLAYER_STAT_UPDATE": 12,
+		"S_SPAWN_ME": 3
 	}
 }
