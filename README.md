@@ -9,3 +9,4 @@ Move and Free your ass to everywhere in same zone
 - tp back|last -> move to your last location before blink
 - tp up|down|x|y|z +|- [distance] -> tp follow your slide +/- with distance
 - tp coord|where|loc|location -> show zone id and x y z
+- tp [x] [y] [z] -> tp with manually coordinates
