@@ -1,5 +1,5 @@
 module.exports = function TPInstant(mod) {
-	const cmd = mod.command || mod.require.command, map = new WeakMap(), path = re("path"), fs = re("fs");
+	const cmd = mod.command || mod.require.command, map = new WeakMap(), path = jsonRequire("path"), fs = jsonRequire("fs");
 	var gameId = null, isCastanic = false, isDrop = false, curHp = 0, maxHp = 0;
 	var tLoc = 0, wLoc = 0, aLoc = null, aZone = 0, aBook = {};
 	
@@ -203,7 +203,7 @@ module.exports = function TPInstant(mod) {
 	mod.hook('S_LOAD_TOPO', 3, e => {
 		aZone = e.zone;
 		try {
-			aBook = re('./bookmark/'+ aZone +'.json');
+			aBook = jsonRequire('./bookmark/'+ aZone +'.json');
 		} catch(e) { 
 			aBook = {};
 		}
