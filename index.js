@@ -238,11 +238,11 @@ module.exports = function TPInstant(mod) {
 			let d = [];
 			for(let list in aBook)
 				d.push({
-					text: `<font color="#4DE19C" size="+24">- ${list}</font><br>`,
+					text: `<font color="#4DE19C" size="+24">- ${list}</font>`,
 					command: `tp to ${list}`
 				},
 				{
-					text: `<font color="#FE6F5E" size="+10">/t/t/t/t/t/t/t/t/t[Delete]</font><br>`,
+					text: `<font color="#FE6F5E" size="+10">          [Delete]</font><br>`,
 					command: `tp removewithgui ${list}`
 				});
 			gui.parse(d, `<font color="#E0B0FF">Teleport List - [${aZone}]</font>`);
