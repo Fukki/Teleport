@@ -1,4 +1,4 @@
-# teleport
+# Teleport
 Move and Free your ass to everywhere in same zone
 # Commands
 - tp drop [x] -> drop your hp to x percent for slaying
@@ -7,6 +7,6 @@ Move and Free your ass to everywhere in same zone
 - tp remove|delete|del [name] -> remove your saved location name
 - tp blink [distance] [z] -> blink to forward with distance and z (*can ignore z if you are sure not underground)
 - tp back|last -> move back to your last location before tp
-- tp up|down|x|y|z +|- [distance] -> tp follow your slide +/- with distance
+- tp up|down|x|y|z +|- [distance] -> tp follow side +/- with distance
 - tp coord|where|loc|location -> show coordinates zone id and x y z
 - tp [x] [y] [z] -> tp with manually coordinates
