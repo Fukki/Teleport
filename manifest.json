@@ -1,6 +1,6 @@
 {
 	"files": {
-		"index.js": "d5270b90fc622d5f3bc5f0bd4283540241caa969b0f2f25f76d143ef3eef7a32"
+		"index.js": "5f9439e2d98003402e127f074d85c5c0bef71f0c037a520762a868a06a4a9747"
 	},
 	"defs": {
 		"C_ADMIN": 1,
@@ -10,8 +10,8 @@
 		"S_CREATURE_CHANGE_HP": 6,
 		"S_INSTANT_MOVE": 3,
 		"S_LOAD_TOPO": 3,
-		"S_LOGIN": 13,
-		"S_PLAYER_STAT_UPDATE": 12,
+		"S_LOGIN": [13,14],
+		"S_PLAYER_STAT_UPDATE": [12,13],
 		"S_SPAWN_ME": 3
 	}
 }
