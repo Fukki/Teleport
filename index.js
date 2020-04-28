@@ -171,7 +171,7 @@ module.exports = function TPInstant(mod) {
 		}
 	});
 
-	mod.hook('S_LOGIN', mod.majorPatchVersion > 85 ? 14 : 13, (e) => {
+	mod.hook('S_LOGIN', 14, (e) => {
 		gameId = e.gameId;
 		isCastanic = Math.floor((e.templateId - 10101) / 200) === 3;
 	});
@@ -188,7 +188,7 @@ module.exports = function TPInstant(mod) {
 	});
 
 	
-	mod.hook('S_PLAYER_STAT_UPDATE', mod.majorPatchVersion > 85 ? 13 : 12, e => {
+	mod.hook('S_PLAYER_STAT_UPDATE', mod.majorPatchVersion > 93 ? 14 : 13, e => {
 		curHp = e.hp;
 		maxHp = e.maxHp;
 	});
