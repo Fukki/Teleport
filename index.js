@@ -188,7 +188,7 @@ module.exports = function TPInstant(mod) {
 	});
 
 	
-	mod.hook('S_PLAYER_STAT_UPDATE', mod.majorPatchVersion > 93 ? 14 : 13, e => {
+	mod.hook('S_PLAYER_STAT_UPDATE', mod.majorPatchVersion >= 93 ? 14 : 13, e => {
 		curHp = e.hp;
 		maxHp = e.maxHp;
 	});
